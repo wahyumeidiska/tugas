@@ -145,7 +145,7 @@ section {
 .beranda .image img {
   height: 50rem;
   width: 50rem;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 30px;
 }
 
 .beranda .content {
@@ -156,7 +156,7 @@ section {
 
 .beranda .content h3 {
   color: #EEEEEE;
-  font-size: 4rem;
+  font-size: 3rem;
   padding-bottom: .5rem;
 }
 
@@ -295,63 +295,6 @@ section {
   font-size: 1.7rem;
   font-weight: normal;
   text-transform: uppercase;
-}
-
-.education .box-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.education .box-container .box {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  margin-left: 2rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 3.5rem;
-  padding-bottom: 3rem;
-  border-left: 0.1rem solid #aaa;
-  position: relative;
-}
-
-.education .box-container .box i {
-  height: 4.5rem;
-  width: 4.5rem;
-  line-height: 4.5rem;
-  font-size: 1.7rem;
-  border-radius: 50%;
-  background: #00ADB5;
-  color: #EEEEEE;
-  text-align: center;
-  position: absolute;
-  top: -1rem;
-  left: -2.5rem;
-}
-
-.education .box-container .box span {
-  font-size: 1.7rem;
-  color: #EEEEEE;
-  border-radius: 5rem;
-  padding: .5rem 1.5rem;
-  background:#393E46;
-}
-
-.education .box-container .box h3 {
-  font-size: 2rem;
-  padding: 1rem 0;
-  color: #EEEEEE;
-  padding-top: 3rem;
-  font-weight: normal;
-}
-
-.education .box-container .box p {
-  font-size: 1.5rem;
-  color: #aaa;
-  line-height: 2;
 }
 
 .galeri {
