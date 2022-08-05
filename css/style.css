@@ -127,10 +127,10 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 4rem;
   min-height: calc(100vh - 6.5rem);
 }
@@ -143,9 +143,9 @@ section {
 }
 
 .beranda .image img {
-  height: 50rem;
-  width: 50rem;
-  border-radius: 30px;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 20px;
 }
 
 .beranda .content {
@@ -179,7 +179,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
+          -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -193,7 +193,7 @@ section {
 }
 
 .biodata .row .info-container h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #EEEEEE;
   text-transform: uppercase;
   padding-bottom: 1rem;
@@ -251,7 +251,7 @@ section {
 }
 
 .biodata .row .count-container .box h3 {
-  font-size: 5rem;
+  font-size: 2rem;
   color: #00ADB5;
 }
 
@@ -259,7 +259,9 @@ section {
   font-size: 2rem;
   color: #aaa;
 }
-
+.pemahaman h1{
+  font-size: 3rem;
+}
 .pemahaman .box-container {
   display: -ms-grid;
   display: grid;
@@ -269,7 +271,7 @@ section {
 }
 
 .pemahaman .box-container .box {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
@@ -329,30 +331,30 @@ section {
 }
 
 .galeri .box-container .box .content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background:#393E46;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 2rem;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:#393E46;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 2rem;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
 }
 
 .galeri .box-container .box .content h3 {
@@ -466,11 +468,11 @@ section {
 }
 
 .kontak .row .info-container {
-  width: 40rem;
+  width: 60rem;
 }
 
 .kontak .row .info-container h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: #EEEEEE;
   padding-bottom: 1rem;
@@ -522,7 +524,7 @@ section {
 }
 
 .kontak .row img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 
